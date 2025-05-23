@@ -1,19 +1,15 @@
-import React from 'react'
-import logo from '../assets/turtle.png'
-import {BrowserRouter as Router} from "react-router-dom"
+import React from 'react';
+import logo from '../assets/turtle.png';
 
 function Navbar() {
   return (
     <div className='navbar'>
-        <div className='left'>
-            <img src={logo}></img>
-        </div>
-
-
-        <div className='right'></div>
-      
+      <div className='left'>
+        <img src={logo} alt="Logo" style={{ width: '100px' }} />
+      </div>
+      <div className='right'></div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
