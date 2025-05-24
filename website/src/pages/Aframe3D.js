@@ -9,7 +9,6 @@ import bkg from '../assets/turtle.png'
 function Aframe3D() {
     const loader = new GLTFLoader()
   return (
-    <div>
         <a-scene>
             <a-assets>
                 <img id="bkg" src={bkg} alt='background'/>
@@ -17,11 +16,11 @@ function Aframe3D() {
             
             <Chair x={0} y={1} z={0.2} rotation="0 180 0"/>
             <Table x={0} y={-18} z={-11} rotation="0 90 0"/>
+            <Computer x={0} y={1.4} z={-0.4} rotation="0 90 0"/>
             
             
         </a-scene>
 
-    </div>
   )
 }
 
