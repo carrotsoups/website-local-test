@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Menu from './pages/Menu'
 import Contact from './pages/Contact'
+import Aframe3D from './pages/Aframe3D';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/aframe3d" element={<Aframe3D />} />
         </Routes>
 
         <Footer />

@@ -21,6 +21,7 @@ function Navbar() {
           <Link to="/menu">Menu</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/about">About</Link>
+          <Link to="/aframe3d">aframe</Link>
         </div>
         
       </div>
@@ -30,6 +31,7 @@ function Navbar() {
         <Link to="/menu">Menu</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/about">About</Link>
+        <Link to="/aframe3d">aframe</Link>
         
         <button onClick={toggleNavbar}>
           <ReorderIcon/>
