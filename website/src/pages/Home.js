@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Home.css"
 import {Link} from 'react-router-dom'
 import bkg from '../assets/snoopybkg.png'
-import Aframe3D from './Aframe3D'
+import WholeSetUp from '../components/WholeSetUp'
 
 function Home() {
   return (
@@ -18,7 +18,7 @@ function Home() {
 
         <div className='right'>
           <p>sfnjasjdfsfdf</p>
-          <Aframe3D/>
+          <WholeSetUp/>
         </div>
       
            
