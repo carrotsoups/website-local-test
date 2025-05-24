@@ -2,7 +2,7 @@ import React from 'react'
 import 'aframe'
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader'
 import computerModel from '../models/computer.glb'
-import Protoypes from 'prop-types'
+import Prototypes from 'prop-types'
 
 
 function Computer({x,y,z}) {
@@ -14,15 +14,13 @@ function Computer({x,y,z}) {
         }
     )
   return (
-    <div>
-      <a-entity id='computer' position={`${x} ${y} ${z}`} scale="15 15 15"></a-entity>
-    </div>
+      <a-entity id='computer' position={`${x} ${y} ${z}`} scale="1 1 1"></a-entity>
   )
 }
 
-Computer.Protoypes = {
-    x: Protoypes.number,
-    y: Protoypes.number,
-    z: Protoypes.number
+Computer.Prototypes = {
+    x: Prototypes.number,
+    y: Prototypes.number,
+    z: Prototypes.number
 }
 export default Computer

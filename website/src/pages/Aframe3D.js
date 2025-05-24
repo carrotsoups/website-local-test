@@ -11,7 +11,7 @@ function Aframe3D() {
             <a-assets>
                 <img id="bkg" src='/assets/turtle.png' alt='background'/>
             </a-assets>
-            <a-plane src="#bkg" position="0 1 -3" width="4" height="2.5"></a-plane>
+            <Computer x={0} y={0} z={0}/>
 
             
 
@@ -22,3 +22,4 @@ function Aframe3D() {
 }
 
 export default Aframe3D
+//<a-plane src="#bkg" position="0 1 -3" width="4" height="2.5"></a-plane>
