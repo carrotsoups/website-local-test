@@ -9,7 +9,7 @@ import bkg from '../assets/turtle.png'
 function Aframe3D() {
     const loader = new GLTFLoader()
   return (
-        <a-scene>
+        <a-scene embedded style={{ width: '100%', height: '100%' }}>
             <a-assets>
                 <img id="bkg" src={bkg} alt='background'/>
             </a-assets>
