@@ -5,7 +5,7 @@ import chairModel from '../models/chair.glb'
 import Prototypes from 'prop-types'
 
 
-function Chair({x,y,z}) {
+function Chair({x,y,z,rotation}) {
     const loader = new GLTFLoader();
     loader.load(
         chairModel, (d)=>{
@@ -14,7 +14,7 @@ function Chair({x,y,z}) {
         }
     )
   return (
-      <a-entity id='chair' position={`${x} ${y} ${z}`} scale="1 1 1"></a-entity>
+      <a-entity id='chair' position={`${x} ${y} ${z}`} scale="0.005 0.005 0.005" rotation={rotation}></a-entity>
   )
 }
 

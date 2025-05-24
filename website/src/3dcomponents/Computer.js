@@ -5,7 +5,7 @@ import computerModel from '../models/computer.glb'
 import Prototypes from 'prop-types'
 
 
-function Computer({x,y,z}) {
+function Computer({x,y,z,rotation}) {
     const loader = new GLTFLoader();
     loader.load(
         computerModel, (d)=>{
@@ -14,7 +14,7 @@ function Computer({x,y,z}) {
         }
     )
   return (
-      <a-entity id='computer' position={`${x} ${y} ${z}`} scale="1 1 1"></a-entity>
+      <a-entity id='computer' position={`${x} ${y} ${z}`} scale="0.5 0.5 0.5" rotation={rotation}></a-entity>
   )
 }
 

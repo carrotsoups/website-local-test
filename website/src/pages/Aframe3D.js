@@ -14,9 +14,9 @@ function Aframe3D() {
             <a-assets>
                 <img id="bkg" src={bkg} alt='background'/>
             </a-assets>
-            <Computer x={0} y={1} z={0}/>
-            <Table x={0} y={0} z={0}/>
-            <Chair x={0} y={0} z={0}/>
+            
+            <Chair x={0} y={1} z={0.2} rotation="0 180 0"/>
+            <Table x={0} y={-18} z={-11} rotation="0 90 0"/>
             
             
         </a-scene>
@@ -28,3 +28,5 @@ function Aframe3D() {
 export default Aframe3D
 //<a-plane src="#bkg" position="0 1 -3" width="4" height="2.5"></a-plane>
 //<a-sky src="#bkg"></a-sky>
+/*<Computer x={0} y={2} z={0}/>
+            <Table x={0} y={-1} z={0}/> */

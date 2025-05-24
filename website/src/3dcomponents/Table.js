@@ -5,7 +5,7 @@ import tableModel from '../models/table.glb'
 import Prototypes from 'prop-types'
 
 
-function Table({x,y,z}) {
+function Table({x,y,z,rotation}) {
     const loader = new GLTFLoader();
     loader.load(
         tableModel, (d)=>{
@@ -14,7 +14,7 @@ function Table({x,y,z}) {
         }
     )
   return (
-      <a-entity id='table' position={`${x} ${y} ${z}`} scale="1 1 1"></a-entity>
+      <a-entity id='table' position={`${x} ${y} ${z}`} scale="0.5 0.5 0.5"  rotation={rotation}></a-entity>
   )
 }
 
