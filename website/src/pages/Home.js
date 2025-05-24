@@ -6,7 +6,7 @@ import WholeSetUp from '../components/WholeSetUp'
 
 function Home() {
   return (
-    <div className='Home'  style={{backgroundImage:`url(${bkg})`}}>
+    <div className='Home'>
       <div className='headerContainer'>
         <div className='left'>
           <h1>Sunni Xue</h1>
@@ -17,8 +17,7 @@ function Home() {
 
 
         <div className='right'>
-          <p>sfnjasjdfsfdf</p>
-          <WholeSetUp/>
+          <WholeSetUp button="enabled: false"/>
         </div>
       
            
@@ -28,3 +27,4 @@ function Home() {
 }
 
 export default Home
+// style={{backgroundImage:`url(${bkg})`}}

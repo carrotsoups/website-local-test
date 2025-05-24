@@ -15,16 +15,21 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding-left: 150px;
+  padding: 10px;
 }
 
-.headerContainer .right {
+.headerContainer .left{
   flex: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 50px;
+}
+.headerContainer .right {
   width: 500px;
   height: 500px;
+
+  border: 2px solid #ccc;  
+  border-radius: 20px;          
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white; 
 }
 
 .headerContainer h1 {

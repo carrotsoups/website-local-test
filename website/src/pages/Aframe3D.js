@@ -5,7 +5,7 @@ import WholeSetUp from '../components/WholeSetUp'
 function Aframe3D() {
   return (
         <div style={{ width: '100vw', height: '100vh' }}>
-            <WholeSetUp/>
+            <WholeSetUp button="enabled: true"/>
         </div>
   )
 }

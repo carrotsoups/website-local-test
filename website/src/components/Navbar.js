@@ -14,7 +14,8 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className='left'>
-        <img src={logo} alt="Logo"/>
+        <div className='image-cropper'><img src={logo} alt="Logo"/></div>
+        
 
         <div className='hiddenLinks' id={openLinks?"open":"close"}>
           <Link to="/">Home</Link>

@@ -6,10 +6,10 @@ import Table from '../3dcomponents/Table'
 import Chair from '../3dcomponents/Chair'
 import bkg from '../assets/turtle.png'
 
-function Aframe3D() {
+function WholeSetUp(button) {
     const loader = new GLTFLoader()
   return (
-        <a-scene embedded style={{ width: '100%', height: '100%' }}>
+        <a-scene embedded style={{ width: '100%', height: '100%' }} xr-mode-ui={button}>
             <a-assets>
                 <img id="bkg" src={bkg} alt='background'/>
             </a-assets>
@@ -24,7 +24,7 @@ function Aframe3D() {
   )
 }
 
-export default Aframe3D
+export default WholeSetUp
 //<a-plane src="#bkg" position="0 1 -3" width="4" height="2.5"></a-plane>
 //<a-sky src="#bkg"></a-sky>
 /*<Computer x={0} y={2} z={0}/>
