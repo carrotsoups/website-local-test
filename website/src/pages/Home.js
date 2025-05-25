@@ -13,8 +13,9 @@ function Home() {
           <div className='box'>
             <div style={{flex:"50%",display:"flex"}}>
               <p style={{color:"#ffffff",display:"inline"}}>carrotsoups@ubuntu:~$&nbsp;</p>
-              <p className='typing'>hi im descriptipon please type holy jevdusn vud</p>
+              <p className='typing'>I'm a highschool developer based in Canada who loves to play sports in their free time!</p>
             </div>
+           
           </div>
       
 
