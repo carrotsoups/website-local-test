@@ -6,10 +6,10 @@ import Table from '../3dcomponents/Table'
 import Chair from '../3dcomponents/Chair'
 import bkg from '../assets/turtle.png'
 
-function WholeSetUp(button) {
+function WholeSetUp() {
     const loader = new GLTFLoader()
   return (
-        <a-scene embedded style={{ width: '100%', height: '100%' }} xr-mode-ui={button}>
+        <a-scene embedded style={{ width: '100%', height: '100%' }} xr-mode-ui="enabled: false">
             <a-assets>
                 <img id="bkg" src={bkg} alt='background'/>
             </a-assets>

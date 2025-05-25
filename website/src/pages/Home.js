@@ -17,7 +17,7 @@ function Home() {
 
 
         <div className='right'>
-          <WholeSetUp button="enabled: false"/>
+          <WholeSetUp/>
         </div>
       
            
