@@ -14,7 +14,9 @@ function Computer({x,y,z,rotation}) {
         }
     )
   return (
-      <a-entity id='computer' position={`${x} ${y} ${z}`} scale="0.5 0.5 0.5" rotation={rotation}></a-entity>
+      <a-entity id='computer' position={`${x} ${y} ${z}`} scale="0.5 0.5 0.5" rotation={rotation}>
+        <a-animation attribute="rotation" to="0 360 0" repeat="indefinite"></a-animation>
+      </a-entity>
   )
 }
 
