@@ -11,8 +11,9 @@ function Home() {
         <div className='left'>
           <h1 className='glow'>Hi I'm Sunni Xue</h1>
           <div className='box'>
-            <div>
-              <p className='typing'>hi im description</p>
+            <div style={{flex:"50%",display:"flex"}}>
+              <p style={{color:"#ffffff",display:"inline"}}>carrotsoups@ubuntu:~$&nbsp;</p>
+              <p className='typing'>hi im descriptipon please type holy jevdusn vud</p>
             </div>
           </div>
       
